@@ -1,7 +1,7 @@
 #import OpenAI Library and Authenticate with OpenAI Key
 import openai
 import subprocess
-openai.api_key="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"
+openai.api_key="OPEN_AI_KEY"
 #define System Role
 system_role="Extract entities and thier values as a key-value pair from the provided OCR text and seperate them by a new line."
 system_role="Extract entities and values as a key-value pair from the text provided"
